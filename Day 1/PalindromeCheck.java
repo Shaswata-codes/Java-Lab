@@ -1,6 +1,6 @@
 public class PalindromeCheck {
     public static void main(String[] args) {
-        int num = 121;    // Mention the number here
+        int num = 121;
         int temp = num, rev = 0;
 
         while(temp > 0) {
