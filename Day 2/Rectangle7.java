@@ -9,6 +9,7 @@ class Rectangle7 {
         length = sc.nextDouble();
         System.out.print("Enter breadth: ");
         breadth = sc.nextDouble();
+        sc.close();
     }
 
     void calculate() {
@@ -21,7 +22,7 @@ class Rectangle7 {
     }
 
     public static void main(String[] args) {
-        Rectangle r = new Rectangle();
+        Rectangle7 r = new Rectangle7();
         r.read();
         r.display();
     }
