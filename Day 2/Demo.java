@@ -1,13 +1,10 @@
 import java.util.Scanner;
-
 class Box {
     double length, width, height;
-
     double volume() {
         return length * width * height;
     }
 }
-
 class Demo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -19,5 +16,6 @@ class Demo {
         System.out.print("Enter height: ");
         b.height = sc.nextDouble();
         System.out.println("Volume = " + b.volume());
+        sc.close();
     }
 }

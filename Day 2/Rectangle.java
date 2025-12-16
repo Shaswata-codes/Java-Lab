@@ -12,8 +12,6 @@ class Rectangle {
         System.out.println("Area = " + (length * breadth));
     }
     public static void main(String[] args) {
-        Rectangle r1 = new Rectangle();
-        r1.area();
         Rectangle r2 = new Rectangle(10, 5);
         r2.area();
     }
